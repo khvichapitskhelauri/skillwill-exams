@@ -92,7 +92,7 @@ int main()
 	int result = 0;
 	regex romanNumber("^(C|C|C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$");
 
-	while (currentInput != "exit" && currentAction != "exit")
+	while (currentAction != "exit")
 	{
 		cout << "Enter number" << endl;
 		getline(cin, currentInput);
